@@ -7,10 +7,12 @@
     },
     "files.exclude": {
         "**/bin": true,
-        "**/obj": true
+        "**/obj": true,
+        "**/node_modules": true
     },
     "csharpextensions.privateMemberPrefix": "_",
     "csharpextensions.useThisForCtorAssignments": false,
     "git.confirmSync": false,
     "git.autofetch": true,
+    "angular.enable-strict-mode-prompt": false,
 }

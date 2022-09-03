@@ -5,6 +5,7 @@
         "patcx.vscode-nuget-gallery",
         "aaronthomas.vscode-snazzy-operator",
         "pkief.material-icon-theme",
-        "alexcvzz.vscode-sqlite"
+        "alexcvzz.vscode-sqlite",
+        "angular.ng-template"
     ]
 }
