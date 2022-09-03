@@ -147,3 +147,9 @@ See instructions in [client/ssl/](./client/ssl)
 API $ dotnet ef migrations add UserPasswordAdded
 API $ dotnet ef database update
 ```
+
+## Clear out data from the database
+```ps
+API $ dotnet ef database drop
+API $ dotnet ef database update
+```
