@@ -6,6 +6,7 @@
         "aaronthomas.vscode-snazzy-operator",
         "pkief.material-icon-theme",
         "alexcvzz.vscode-sqlite",
-        "angular.ng-template"
+        "angular.ng-template",
+        "johnpapa.angular2"
     ]
 }
