@@ -139,3 +139,11 @@ client $ ng add ngx-bootstrap
 
 ## Enable SSL
 See instructions in [client/ssl/](./client/ssl)
+
+# 4. Authentication
+
+## Add columns to Users table
+```ps
+API $ dotnet ef migrations add UserPasswordAdded
+API $ dotnet ef database update
+```
