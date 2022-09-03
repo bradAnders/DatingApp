@@ -10,5 +10,7 @@
         "**/obj": true
     },
     "csharpextensions.privateMemberPrefix": "_",
-    "csharpextensions.useThisForCtorAssignments": false
+    "csharpextensions.useThisForCtorAssignments": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
 }
