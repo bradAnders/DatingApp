@@ -13,4 +13,5 @@ $ dotnet add package Microsoft.EntityFrameworkCore.Sqlite -v 6.0.4 -s https://ap
 $ dotnet tool install --global dotnet-ef --version 7.0.0-preview.7.22376.2
 $ dotnet package Microsoft.EntityFrameworkCore.Sqlite -v 6.0.4 -s https://api.nuget.org/v3/index.json
 $ dotnet ef migrations add InitialCreate -o Data/Migrations
+$ dotnet ef database update
 ```
