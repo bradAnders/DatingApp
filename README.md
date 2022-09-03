@@ -153,3 +153,8 @@ API $ dotnet ef database update
 API $ dotnet ef database drop
 API $ dotnet ef database update
 ```
+
+## Install token package
+```ps
+API $ dotnet add package System.IdentityModel.Tokens.Jwt -v 6.22.1 -s https://api.nuget.org/v3/index.json
+```
