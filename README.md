@@ -117,3 +117,6 @@ client $ ng serve
 ```ps
 client $ ng add ngx-bootstrap
 ```
+
+## Enable SSL
+See instructions in [ssl/](./client/ssl)
