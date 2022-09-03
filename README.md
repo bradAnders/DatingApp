@@ -88,7 +88,7 @@ $ dotnet sln add API/
 ## Nuget package install
 ```ps
 API $ dotnet add package Swashbuckle.AspNetCore --version 6.2.3
-API $ dotnet add package Microsoft.EntityFrameworkCore.Sqlite -v 6.0.4 -s https://api.nuget.org/v3/index.json
+API $ dotnet add package Microsoft.EntityFrameworkCore.Sqlite -v 6.0.8 -s https://api.nuget.org/v3/index.json
 ```
 
 ## Run the api
@@ -157,4 +157,5 @@ API $ dotnet ef database update
 ## Install token package
 ```ps
 API $ dotnet add package System.IdentityModel.Tokens.Jwt -v 6.22.1 -s https://api.nuget.org/v3/index.json
+API $ dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer -v 6.0.8 -s https://api.nuget.org/v3/index.json
 ```
