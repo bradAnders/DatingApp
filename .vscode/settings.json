@@ -15,4 +15,5 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "angular.enable-strict-mode-prompt": false,
+    "angular.forceStrictTemplates": true,
 }

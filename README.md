@@ -94,6 +94,11 @@ Migrate the sqlite server
 API/ $ dotnet ef database update
 ```
 
+## Run the api, reloading for changes
+```ps
+$ dotnet watch
+```
+
 # 3. Angular View Setup
 
 ## New angular client
