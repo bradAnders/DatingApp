@@ -457,6 +457,7 @@ $RECYCLE.BIN/
 ## App settings
 ##
 appsettings.json
+*.db
 *.db-shm
 *.db-wal
 *.crt
