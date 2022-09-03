@@ -4,6 +4,7 @@
         "kreativ-software.csharpextensions",
         "patcx.vscode-nuget-gallery",
         "aaronthomas.vscode-snazzy-operator",
-        "pkief.material-icon-theme"
+        "pkief.material-icon-theme",
+        "alexcvzz.vscode-sqlite"
     ]
 }
