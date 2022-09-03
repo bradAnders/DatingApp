@@ -1,17 +1,8 @@
 ## Enable SSL
 
-0. Generate self-signed certificate
-```sh
-$ ~/AppData/Local/Programs/Git/usr/bin/openssl.exe req \
-    -newkey rsa:2048 \
-    -x509 \
-    -nodes \
-    -keyout server.key \
-    -new \
-    -out server.crt \
-    -sha256 \
-    -days 7300
-```
+### Windows
+
+0. Generate self-signed certificate by running [the powershell script](./generate_cert_windows.ps1) *AS ADMINISTRATOR*
 1. Double click on the certificate (server.crt)
 2. Click on the button “Install Certificate …”
 3. Select whether you want to store it on user level or on machine level
