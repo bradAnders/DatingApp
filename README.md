@@ -72,6 +72,11 @@ API/ $ dotnet add package Swashbuckle.AspNetCore --version 6.2.3
 API/ $ dotnet add package Microsoft.EntityFrameworkCore.Sqlite -v 6.0.4 -s https://api.nuget.org/v3/index.json
 ```
 
+## Run the api
+```ps
+$ dotnet run
+```
+
 ## Entity framework setup, data migrations 
 
 Install dotnet entity framework
@@ -96,4 +101,9 @@ API/ $ dotnet ef database update
 $ ng new client --strict false
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? CSS
+```
+
+## Run the client
+```ps
+$ ng serve
 ```
