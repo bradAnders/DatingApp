@@ -1,17 +1,9 @@
-## Enable SSL
+# Enable SSL
 
-### Windows
+Generate self-signed certificate by running the setup script
 
-0. Generate self-signed certificate by running [the powershell script](./generate_cert_windows.ps1) *AS ADMINISTRATOR*
-1. Double click on the certificate (server.crt)
-2. Click on the button “Install Certificate …”
-3. Select whether you want to store it on user level or on machine level
-4. Click “Next”
-5. Select “Place all certificates in the following store”
-6. Click “Browse”
-7. Select “Trusted Root Certification Authorities”
-8. Click “Ok”
-9. Click “Next”
-10. Click “Finish”
+## MacOS
+[Bash script](./generate_cert_macos.sh) *AS ADMINISTRATOR*
 
-If you get a prompt, click “Yes”
+## Windows
+[Powershell script](./generate_cert_windows_admin.ps1) *AS ADMINISTRATOR*

@@ -49,6 +49,25 @@ Package                      Version
 Warning: The current version of Node (16.17.0) is not supported by Angular.
 ```
 
+# Quick Start - Development
+
+## API
+```sh
+$ cd API/
+API $ dotnet tool install --global dotnet-ef --version 7.0.0-preview.7.22376.2
+API $ dotnet ef database update
+API $ dotnet dev-certs https --trust
+API $ dotnet watch run
+```
+
+## Client
+```sh
+$ cd client/ssl
+ssl $ ./generate_cert_*OPERATING_SYSTEM*
+ssl $ cd ..
+client $ ng serve
+```
+
 # 2. Asp.Net API Setup
 
 ## New dotnet solution
@@ -119,4 +138,4 @@ client $ ng add ngx-bootstrap
 ```
 
 ## Enable SSL
-See instructions in [ssl/](./client/ssl)
+See instructions in [client/ssl/](./client/ssl)
