@@ -17,3 +17,8 @@ Get syntax from [Valor Software's `ngx-bootstrap`](https://valor-software.com/ng
 ```ts
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 ```
+
+## Add a home component
+```s
+app $ ng g c home --skip-tests
+```
