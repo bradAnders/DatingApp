@@ -162,7 +162,13 @@ API $ dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer -v 6.0.8 
 
 # 5. Client Login and Register
 
+Generate a new component with the angular command line tool
 ```ps
 client $ cd src/app
 app $ ng g c nav --skip-tests
+```
+
+```ps
+app $ cd _services
+services $ ng g s account --skip-tests
 ```
