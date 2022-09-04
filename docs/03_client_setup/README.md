@@ -1,19 +1,19 @@
 # 3. Angular View Setup
 
 ## New angular client
-```ps
+```s
 client $ ng new client --strict false
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? CSS
 ```
 
 ## Run the client
-```ps
+```s
 client $ ng serve
 ```
 
 ## Install Angular bootstrap
-```ps
+```s
 client $ ng add ngx-bootstrap
 ```
 

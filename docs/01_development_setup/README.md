@@ -1,19 +1,19 @@
 # 1. Prerequsites
 
 ## Install dotnet
-```ps
+```s
 $ dotnet --version
 6.0.400
 ```
 
 ## Install node.js
-```ps
+```s
 $ node --version
 v16.17.0
 ```
 
 ## Install angular
-```ps
+```s
 $ npm install -g @angular/cli@12
 $ npm @angular --version
 8.15.0

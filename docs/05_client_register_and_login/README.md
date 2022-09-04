@@ -1,13 +1,13 @@
 # 5. Client Login and Register
 
 ## Generate a new component with the angular command line tool
-```ps
+```s
 client $ cd src/app
 app $ ng g c nav --skip-tests
 ```
 
 ## Generate a new service
-```ps
+```s
 app $ cd _services
 services $ ng g s account --skip-tests
 ```
