@@ -18,4 +18,4 @@ client $ ng add ngx-bootstrap
 ```
 
 ## Enable SSL
-See instructions in [client/ssl/](./client/ssl)
+See instructions in [client/ssl/](../../client/ssl)

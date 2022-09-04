@@ -1,5 +1,17 @@
 # Quick Start - Development
 
+## Development machine
+
+[Asp.Net](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- Release `6.0.8`
+- SDK `6.0.400`
+
+[Node.js](https://nodejs.org/en/download/)
+- Release `16.17.0`
+
+[Angular](https://angular.io/)
+- Release `8.15.0`
+
 ## API
 ```sh
 $ cd API/
