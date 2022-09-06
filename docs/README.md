@@ -12,8 +12,13 @@
 [Angular](https://angular.io/)
 - Release `8.15.0`
 
+## Project 
+```s
+$ dotnet restore
+```
+
 ## API
-```sh
+```s
 $ cd API/
 API $ dotnet tool install --global dotnet-ef --version 7.0.0-preview.7.22376.2
 API $ dotnet ef database update
@@ -22,10 +27,11 @@ API $ dotnet watch run
 ```
 
 ## Client
-```sh
+```s
 $ cd client/ssl
 ssl $ ./generate_cert_*OPERATING_SYSTEM*
 ssl $ cd ..
+client $ npm install
 client $ ng serve
 ```
 
