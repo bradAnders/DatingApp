@@ -24,7 +24,6 @@ namespace API.Controllers
             return "secret text";
         }
 
-        [Authorize]
         [HttpGet("not-found")]
         public ActionResult<AppUser> GetNotFound()
         {
@@ -35,7 +34,6 @@ namespace API.Controllers
             return Ok(thing);
         }
 
-        [Authorize]
         [HttpGet("server-error")]
         public ActionResult<string> GetServerError()
         {
@@ -46,7 +44,6 @@ namespace API.Controllers
             return thingToReturn;
         }
 
-        [Authorize]
         [HttpGet("bad-request")]
         public ActionResult<string> GetBadRequest()
         {
