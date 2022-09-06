@@ -18,3 +18,11 @@ CREATE src/app/_guards/auth.guard.ts (457 bytes)
 _guards $ cd ../..
 client $ npm install bootswatch
 ```
+
+## Create a new shared module
+```s
+client $ cd src/app
+app $ mkdir _modules
+app $ cd _modules
+_modules $ ng g m shared --flat
+```
