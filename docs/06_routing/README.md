@@ -12,3 +12,9 @@ _guards $ ng g guard auth --skip-tests
 ? Which interfaces would you like to implement? CanActivate
 CREATE src/app/_guards/auth.guard.ts (457 bytes)
 ```
+
+## Install bootswatch
+```s
+_guards $ cd ../..
+client $ npm install bootswatch
+```
