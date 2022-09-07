@@ -47,3 +47,8 @@ Copy and paste the output to [API/Data/UserSeedData.json](../../API/Data/UserSee
 API $ dotnet ef database drop
 API $ dotnet watch run
 ```
+
+## Install AutoMapper
+```s
+API $ dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection -v 8.0.1 -s https://api.nuget.org/v3/index.json
+```
