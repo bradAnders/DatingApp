@@ -41,3 +41,9 @@ Copy and paste the output to [API/Data/UserSeedData.json](../../API/Data/UserSee
   }
 ]
 ```
+
+## Drop the existing database and restart the API to rehydrate
+```s
+API $ dotnet ef database drop
+API $ dotnet watch run
+```
